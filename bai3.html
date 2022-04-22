@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai3</title>
+</head>
+<body>
+<script>
+let str1='codegymc0322h1';
+let str2='code';
+function checkString(str1,str2){
+    for (let i = 0; i < str1.length; i++) {
+        if(str2==str1.splice(str1.indexOf(str2[0]),str2.length)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+// sai roi nhung tu duy la vay :))
+console.log(checkString(str1, str2));
+</script>
+</body>
+</html>
